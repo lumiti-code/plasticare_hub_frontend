@@ -54,6 +54,13 @@
 
 ---
 
+### Procedures
+| Section | File Path |
+| :--- | :--- |
+| All Procedures | `plasticare_hub_frontend/data/procedures.ts` |
+
+---
+
 ### Surgeons
 | Section | File Path |
 | :--- | :--- |
@@ -70,7 +77,7 @@
 
 ---
 
-### About (Part 1)
+### About
 | Section | File Path |
 | :--- | :--- |
 | Landing Image | `plasticare_hub_frontend/src/pages/about/components/HeroSection.tsx` |
