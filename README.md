@@ -77,12 +77,6 @@
 | Philosophy Section | `plasticare_hub_frontend/src/pages/about/components/PhilosophySection.tsx` |
 | Facility Tour | `plasticare_hub_frontend/src/pages/about/components/Facility TourSection.tsx` |
 | Medical Equipment | `plasticare_hub_frontend/src/pages/about/components/TechnologySection.tsx` |
-
----
-
-## About (Part 2)
-| Section | File Path |
-| :--- | :--- |
 | Team Section | `plasticare_hub_frontend/src/pages/about/components/TeamSection.tsx` |
 | Certifications | `plasticare_hub_frontend/src/pages/about/components/CertificationsSection.tsx` |
 | Safety Protocols | `plasticare_hub_frontend/src/pages/about/components/Certifications Section.tsx` |
