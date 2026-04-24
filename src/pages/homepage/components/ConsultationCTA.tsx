@@ -58,7 +58,7 @@ const ConsultationCTA = () => {
 
     if (!formData.phone.trim()) {
       newErrors.phone = 'Phone number is required';
-    } else if (/^254[17]\d{8}$/.test(formData.email.trim())) {
+    } else if (!/^254[17]\d{8}$/.test(formData.phone.trim())) {
       newErrors.phone = 'Invalid phone format';
     }
 
