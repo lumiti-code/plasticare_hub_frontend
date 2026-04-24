@@ -48,7 +48,7 @@ const CreateUserModal = ({ onClose }: CreateUserProps) => {
     }
 
     if (!formData.surname.trim()) {
-      newErrors.surname = 'Surame is required';
+      newErrors.surname = 'Surname is required';
     }
 
     if (!formData.privilege.trim()) {
