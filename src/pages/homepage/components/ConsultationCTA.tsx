@@ -52,13 +52,13 @@ const ConsultationCTA = () => {
 
     if (!formData.email.trim()) {
       newErrors.email = 'Email is required';
-    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.email)) {
+    } else if (!/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(formData.email.trim())) {
       newErrors.email = 'Please enter a valid email address';
     }
 
     if (!formData.phone.trim()) {
       newErrors.phone = 'Phone number is required';
-    } else if (/^254[17]\d{8}$/.test(formData.email)) {
+    } else if (/^254[17]\d{8}$/.test(formData.email.trim())) {
       newErrors.phone = 'Invalid phone format';
     }
 
