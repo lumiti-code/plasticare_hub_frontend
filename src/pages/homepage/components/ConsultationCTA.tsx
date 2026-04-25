@@ -263,7 +263,7 @@ const ConsultationCTA = () => {
                   options={preferredDoctors}
                   value={formData.preferred_doctor_id}
                   onChange={(value) => handleInputChange('preferred_doctor_id', value as string)}
-                  error={errors.procedure}
+                  error={errors.preferred_doctor_id}
                   required
                 />
 
@@ -273,7 +273,7 @@ const ConsultationCTA = () => {
                   placeholder="dd/mm/yyyy"
                   value={formData.preferred_date}
                   onChange={(e) => handleInputChange('preferred_date', e.target.value)}
-                  error={errors.phone}
+                  error={errors.preferred_date}
                   required
                 />
 
@@ -283,7 +283,7 @@ const ConsultationCTA = () => {
                   placeholder="00:00"
                   value={formData.preferred_time}
                   onChange={(e) => handleInputChange('preferred_time', e.target.value)}
-                  error={errors.phone}
+                  error={errors.preferred_time}
                   required
                 />
 
