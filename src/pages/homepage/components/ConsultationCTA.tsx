@@ -198,7 +198,7 @@ const ConsultationCTA = () => {
                   </span>
                 </div>
                 <p className="font-body text-2xl font-bold text-primary mb-2">
-                  (555) 123-4567
+                  254786729961
                 </p>
                 <p className="font-body text-sm text-text-secondary">
                   Monday - Friday: 8:00 AM - 6:00 PM\nSaturday: 9:00 AM - 3:00 PM
