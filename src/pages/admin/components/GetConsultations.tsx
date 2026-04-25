@@ -138,7 +138,7 @@ const ConsultationsPage  = ( { allowedRoles } : AuthProps ) => {
                     className="flex-1 bg-primary hover:bg-primary/90 z-1000"
                     onClick={handleButtonClick}
                     >
-                        Read
+                        Mark Read
                     </Button>
                 );
             }
