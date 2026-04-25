@@ -49,7 +49,7 @@ const ConsultationCTA = ( { onOpen } : CTAProps ) => {
               iconPosition="left"
               className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
             >
-              Call (555) 123-4567
+              Call 254786729961
             </Button>
           </div>
 
