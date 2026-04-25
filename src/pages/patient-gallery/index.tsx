@@ -465,7 +465,7 @@ const PatientGallery = () => {
                       iconName="Phone"
                       iconPosition="left"
                       className="bg-primary hover:bg-primary/90">
-                      Call Us Today (555) 123-4567
+                      Call Us Today 254786729961
                     </Button>
                   </div>
                 </div>
