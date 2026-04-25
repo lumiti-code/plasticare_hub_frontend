@@ -9,6 +9,7 @@ import { RbacComponents } from 'components/RBAComponents';
 import { useFormSubmit } from 'components/useFormSubmit';
 import { getUserAuthToken, getUserId } from 'components/RBAC';
 import toast from 'react-hot-toast';
+import { getUserRole } from "./RBAC";
 
 interface AdminHeaderProps {
   className?: string;
@@ -20,13 +21,26 @@ const AdminHeader = ({ className = '' }: AdminHeaderProps) => {
   const [showCreateUserModal, setShowCreateUserModal] = useState(false);
   const location = useLocation();
 
-  const navigationItems = [
-    { label: 'Consultations', path: '/dashboard/admin/consultations' },
-    { label: 'Enquiries', path: '/dashboard/admin/enquiries' },
-    { label: 'Tours', path: '/dashboard/admin/tours' },
-    { label: 'Users', path: '/dashboard/admin/users' },
-  ];
+  const userRole = getUserRole();
 
+  const navigationItems = [];
+  if (userRole === "ADMIN")
+  {
+    navigationItems = [
+      { label: 'Consultations', path: '/dashboard/admin/consultations' },
+      { label: 'Enquiries', path: '/dashboard/admin/enquiries' },
+      { label: 'Tours', path: '/dashboard/admin/tours' },
+      { label: 'Users', path: '/dashboard/admin/users' },
+    ];
+  }
+  else if (userRole === "OPERATOR")
+  {
+    navigationItems = [
+      { label: 'Consultations', path: '/dashboard/admin/consultations' },
+      { label: 'Enquiries', path: '/dashboard/admin/enquiries' },
+      { label: 'Tours', path: '/dashboard/admin/tours' },
+    ];
+  }
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -125,7 +139,7 @@ const AdminHeader = ({ className = '' }: AdminHeaderProps) => {
                   }`}
                 >
                   {item.label}
-                </Link>
+                </Link>      
               ))}
             </nav>
            <div className="hidden lg:flex items-center space-x-4">
