@@ -64,10 +64,6 @@ const BookTourModal = ({ onClose }: BookTourModalProps) => {
       newErrors.preferred_time = 'Preferred Time is required';
     }
 
-    if (!formData.message.trim()) {
-      newErrors.message = 'Message is required';
-    }
-
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
