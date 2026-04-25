@@ -95,13 +95,13 @@ const Footer = () => {
                 <div className="flex items-center gap-3">
                   <Icon name="MapPin" size={18} color="var(--color-primary)" />
                   <span className="font-body text-sm text-text-secondary">
-                    123 Medical Plaza, Suite 500\nBeverly Hills, CA 90210
+                    Nairobi, Kenya
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Icon name="Phone" size={18} color="var(--color-primary)" />
                   <span className="font-body text-sm text-text-secondary">
-                    (555) 123-4567
+                    254786729961
                   </span>
                 </div>
                 <div className="flex items-center gap-3">
