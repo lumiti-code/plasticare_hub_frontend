@@ -6,6 +6,7 @@ import { RegisterDs } from "../types";
 import { useFormSubmit } from "components/useFormSubmit";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 const RegisterPage = () => {
     useEffect(() => {
@@ -62,9 +63,10 @@ const RegisterPage = () => {
     { value: 'OPERATOR', label: 'OPERATOR' }
     ]
 
+    const { registrationToken } = useParams() as { registrationToken: string };
     const endpoint : string = import.meta.env.VITE_REGISTER_USER_ENDPOINT;
     const baseUrl : string = import.meta.env.VITE_BASE_URL
-    const url : string = baseUrl.concat(endpoint)
+    const url : string = baseUrl.concat(endpoint).concat("/").concat(registrationToken);
     const authToken : string = "GUEST";
     const method : string = "POST";
     const mutation = useFormSubmit(url, authToken, method);
