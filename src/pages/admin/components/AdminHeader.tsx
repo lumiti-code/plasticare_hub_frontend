@@ -7,9 +7,8 @@ import Icon from 'components/AppIcon';
 import CreateUserModal from './CreateUser';
 import { RbacComponents } from 'components/RBAComponents';
 import { useFormSubmit } from 'components/useFormSubmit';
-import { getUserAuthToken, getUserId } from 'components/RBAC';
+import { getUserAuthToken, getUserId, getUserRole } from 'components/RBAC';
 import toast from 'react-hot-toast';
-import { getUserRole } from "./RBAC";
 
 interface AdminHeaderProps {
   className?: string;
