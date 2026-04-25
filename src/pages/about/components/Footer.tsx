@@ -18,9 +18,9 @@ const Footer = () => {
       { label: 'About Us', path: '/about' },
     ],
     contact: [
-      { icon: 'Phone', text: '(555) 123-4567' },
+      { icon: 'Phone', text: '254786729961' },
       { icon: 'Mail', text: 'info@plasticarehub.com' },
-      { icon: 'MapPin', text: '123 Medical Plaza, CA 90210' },
+      { icon: 'MapPin', text: 'Nairobi, Kenya' },
       { icon: 'Clock', text: 'Mon-Fri: 9AM-6PM' },
     ],
   };
