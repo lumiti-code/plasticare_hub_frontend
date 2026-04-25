@@ -127,7 +127,7 @@ const RegisterPage = () => {
                             <div className="flex items-center space-x-3 mb-6">
                             <div>
                                 <h2 className="font-headline text-2xl font-bold text-text-primary">
-                                    Login User
+                                    Register User
                                 </h2>
                             </div>
                             </div>
@@ -170,7 +170,7 @@ const RegisterPage = () => {
                                     iconSize={18}
                                     className="flex-1 bg-primary hover:bg-primary/90"
                                     >
-                                    Login
+                                    Register
                                     </Button>
                                 </div>
 
