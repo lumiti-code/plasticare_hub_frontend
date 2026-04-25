@@ -73,11 +73,7 @@ const FreeEnquiry = ({ onClose }: FreeEnquiryProps) => {
     if (!formData.info_type) {
       newErrors.info_type = 'Information Type is required';
     }
-
-    if (!formData.message) {
-      newErrors.message = 'Message is required';
-    }
-
+    
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
