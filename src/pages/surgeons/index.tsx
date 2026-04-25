@@ -171,12 +171,12 @@ const SurgeonsPage = () => {
                   <li className="flex items-start space-x-2">
                     <Icon name="MapPin" size={16} className="text-primary mt-1 flex-shrink-0" />
                     <span className="font-body text-sm text-text-secondary">
-                      123 Medical Plaza, Suite 100<br />Beverly Hills, CA 90210
+                      Nairobi, Kenya
                     </span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <Icon name="Phone" size={16} className="text-primary flex-shrink-0" />
-                    <span className="font-body text-sm text-text-secondary">(555) 123-4567</span>
+                    <span className="font-body text-sm text-text-secondary">254786729961</span>
                   </li>
                   <li className="flex items-center space-x-2">
                     <Icon name="Mail" size={16} className="text-primary flex-shrink-0" />
