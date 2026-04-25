@@ -82,10 +82,6 @@ const ConsultationModal = ({ onClose }: ConsultationModalProps) => {
       newErrors.preferred_time = 'Preferred time is required';
     }
 
-    if (!formData.message) {
-      newErrors.message = 'Message is required';
-    }
-
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
