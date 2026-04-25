@@ -91,7 +91,7 @@ const UsersPage = ( { allowedRoles } : AuthProps ) => {
                     className="flex-1 bg-primary hover:bg-primary/90 z-1000"
                     onClick={handleButtonClick}
                     >
-                        Deactivate
+                        Delete
                     </Button>
                 );
             }
