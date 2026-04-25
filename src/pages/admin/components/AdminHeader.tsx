@@ -23,7 +23,7 @@ const AdminHeader = ({ className = '' }: AdminHeaderProps) => {
 
   const userRole = getUserRole();
 
-  const navigationItems = [];
+  let navigationItems = [];
   if (userRole === "ADMIN")
   {
     navigationItems = [
