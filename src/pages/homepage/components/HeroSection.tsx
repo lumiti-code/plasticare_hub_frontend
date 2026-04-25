@@ -116,7 +116,7 @@ const HeroSection = () => {
                     iconSize={20}
                     className="border-white text-white hover:bg-white hover:text-primary text-base sm:text-lg px-8 py-6"
                   >
-                    Call (555) 123-4567
+                    Call 254786729961
                   </Button>
                 </div>
               </div>
