@@ -124,10 +124,10 @@ const BookTourModal = ({ onClose }: BookTourModalProps) => {
             <div className="flex items-center space-x-3 mb-6">
               <div>
                 <h2 className="font-headline text-2xl font-bold text-text-primary">
-                  Get Free Enquiry
+                   Book Facility Tour
                 </h2>
                 <p>
-                   Get expert answers to your questions about procedures, pricing, recovery, and more. Our patient coordinators will provide detailed information to help you make an informed decision. 
+                   Book facility tour to get, in person, expert answers to your questions about procedures, pricing, recovery, and more. Our patient coordinators will provide detailed information to help you make an informed decision. 
                 </p>
               </div>
             </div>
