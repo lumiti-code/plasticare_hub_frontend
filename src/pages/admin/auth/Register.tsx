@@ -40,7 +40,7 @@ const RegisterPage = () => {
 
     if (!formData.password.trim()) {
         newErrors.password = 'Password is required';
-    } else if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)/.test(formData.password.trim())) {
+    } else if (!/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=[\]{};':"\\|,.<>/?])/.test(formData.password.trim())) {
         newErrors.password = 'Invalid password format';
     }
 
