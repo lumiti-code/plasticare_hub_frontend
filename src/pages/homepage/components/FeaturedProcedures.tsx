@@ -24,7 +24,7 @@ const FeaturedProcedures = () => {
     description: "Reshape and refine your nose for improved facial harmony and breathing function",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/rhinoplasty.jpg",
     alt: "Close-up of woman's face showing refined nose profile after rhinoplasty procedure",
-    price: "Starting at $8,500",
+    price: "Starting at $6,500",
     duration: "2-3 hours",
     recovery: "1-2 weeks",
     popular: true
