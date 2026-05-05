@@ -60,7 +60,7 @@ const FeaturedProcedures = () => {
     description: "Turn back the clock with comprehensive facial rejuvenation for a youthful appearance",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/facelift.jpg",
     alt: "Mature woman with smooth, lifted facial features showing natural-looking facelift results",
-    price: "Starting at $12,000",
+    price: "Starting at $3,500/Ksh450,000",
     duration: "3-5 hours",
     recovery: "2-3 weeks",
     popular: false
