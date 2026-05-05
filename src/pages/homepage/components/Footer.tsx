@@ -38,7 +38,7 @@ const Footer = () => {
     { icon: 'Twitter', url: '#', label: 'Twitter' },
     { icon: 'Youtube', url: '#', label: 'YouTube' },
     { icon: 'Linkedin', url: '#', label: 'LinkedIn' },
-    { icon: 'TikTok', url: 'https://www.tiktok.com/@plasticarehub', label: 'TikTok' }
+    { icon: 'Music', url: 'https://www.tiktok.com/@plasticarehub', label: 'TikTok' }
   ];
 
   return (
