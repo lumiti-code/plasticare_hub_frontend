@@ -33,11 +33,12 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: 'Facebook', url: '#', label: 'Facebook' },
-    { icon: 'Instagram', url: '#', label: 'Instagram' },
+    { icon: 'Facebook', url: 'https://www.facebook.com/plasticsurgeryservic', label: 'Facebook' },
+    { icon: 'Instagram', url: 'https://www.instagram.com/plasticsurgery.kenya/', label: 'Instagram' },
     { icon: 'Twitter', url: '#', label: 'Twitter' },
     { icon: 'Youtube', url: '#', label: 'YouTube' },
-    { icon: 'Linkedin', url: '#', label: 'LinkedIn' }
+    { icon: 'Linkedin', url: '#', label: 'LinkedIn' },
+    { icon: 'TikTok', url: 'https://www.tiktok.com/@plasticarehub', label: 'TikTok' }
   ];
 
   return (
