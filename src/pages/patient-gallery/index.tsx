@@ -163,6 +163,23 @@ const PatientGallery = () => {
     confidenceRating: 10,
     tags: ['Mommy Makeover', 'Post-Pregnancy', 'Complete Transformation', 'Self-Love'],
     featured: true
+  }
+  {
+    id: '9',
+    patientName: 'Rose Mary',
+    age: 37,
+    procedure: 'Brazillian Butt Lift',
+    procedureCategory: 'Comprehensive Body Restoration',
+    beforeImage: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/BBL%201%20Before.jpg",
+    beforeImageAlt: 'Mother in her late 30s showing post-pregnancy body changes including abdominal laxity, breast volume loss, and stretched skin, wearing comfortable clothing',
+    afterImage: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/BBL%202%20After.jpg",
+    afterImageAlt: 'Same mother after mommy makeover showing restored pre-pregnancy body contours, lifted breasts, toned abdomen, and renewed confidence, wearing fitted dress',
+    timelineMonths: 9,
+    story: `After three children, my body had changed dramatically. I wanted to feel like myself again while honoring my journey as a mother.\n\nThe comprehensive approach addressed all my concerns - breast lift, tummy tuck, and liposuction. The recovery was challenging but worth every moment.\n\nNine months later, I have my body back. I feel beautiful, confident, and proud of both my transformation and my role as a mother.`,
+    emotionalJourney: 'Celebrating motherhood while reclaiming my body - this journey helped me feel whole as both a mother and a woman.',
+    confidenceRating: 10,
+    tags: ['Mommy Makeover', 'Post-Pregnancy', 'Complete Transformation', 'Self-Love'],
+    featured: true
   }];
 
 
