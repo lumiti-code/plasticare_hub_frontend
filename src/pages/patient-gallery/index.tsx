@@ -163,7 +163,7 @@ const PatientGallery = () => {
     confidenceRating: 10,
     tags: ['Mommy Makeover', 'Post-Pregnancy', 'Complete Transformation', 'Self-Love'],
     featured: true
-  }
+  },
   {
     id: '9',
     patientName: 'Rose Mary',
