@@ -26,7 +26,7 @@ const PatientGallery = () => {
   const patientStories: PatientStory[] = [
   {
     id: '1',
-    patientName: 'Sarah Mitchell',
+    patientName: '',
     age: 42,
     procedure: 'Facelift & Neck Lift',
     procedureCategory: 'Facial Rejuvenation',
@@ -44,7 +44,7 @@ const PatientGallery = () => {
   },
   {
     id: '2',
-    patientName: 'Jennifer Rodriguez',
+    patientName: '',
     age: 35,
     procedure: 'Breast Augmentation',
     procedureCategory: 'Body Contouring',
@@ -61,7 +61,7 @@ const PatientGallery = () => {
   },
   {
     id: '3',
-    patientName: 'Michael Chen',
+    patientName: '',
     age: 38,
     procedure: 'Rhinoplasty',
     procedureCategory: 'Facial Enhancement',
@@ -79,7 +79,7 @@ const PatientGallery = () => {
   },
   {
     id: '4',
-    patientName: 'Amanda Thompson',
+    patientName: '',
     age: 29,
     procedure: 'Liposuction & Tummy Tuck',
     procedureCategory: 'Body Contouring',
@@ -96,7 +96,7 @@ const PatientGallery = () => {
   },
   {
     id: '5',
-    patientName: 'Robert Williams',
+    patientName: '',
     age: 51,
     procedure: 'Male Facelift & Eyelid Surgery',
     procedureCategory: 'Male Aesthetics',
@@ -114,13 +114,13 @@ const PatientGallery = () => {
   },
   {
     id: '6',
-    patientName: 'Lisa Anderson',
+    patientName: '',
     age: 44,
     procedure: 'Breast Lift & Augmentation',
     procedureCategory: 'Breast Enhancement',
-    beforeImage: "https://img.rocket.new/generatedImages/rocket_gen_img_1d82b32cb-1765003959167.png",
+    beforeImage: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Breast%20Augmentation%20Before.jpg",
     beforeImageAlt: 'Woman in her mid-40s showing natural breast ptosis and volume loss after aging and weight fluctuations, wearing casual clothing',
-    afterImage: "https://img.rocket.new/generatedImages/rocket_gen_img_10c2781d5-1765003957957.png",
+    afterImage: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Breast%20Augmentation%20After.jpg",
     afterImageAlt: 'Same woman after breast lift and augmentation showing restored breast volume, lifted position, and youthful contours with natural appearance',
     timelineMonths: 6,
     story: `After weight loss and aging, I wanted to restore my breast shape and volume. The combination procedure was perfect for my goals.\n\nThe surgeon took time to understand my desired outcome and explained every detail of the process. The results look completely natural.\n\nI feel feminine and confident again. This procedure has positively impacted every aspect of my life, from my wardrobe choices to my intimate relationships.`,
@@ -131,7 +131,7 @@ const PatientGallery = () => {
   },
   {
     id: '7',
-    patientName: 'David Martinez',
+    patientName: '',
     age: 33,
     procedure: 'Gynecomastia Surgery',
     procedureCategory: 'Male Body Contouring',
@@ -149,7 +149,7 @@ const PatientGallery = () => {
   },
   {
     id: '8',
-    patientName: 'Emily Foster',
+    patientName: '',
     age: 37,
     procedure: 'Mommy Makeover',
     procedureCategory: 'Comprehensive Body Restoration',
@@ -166,7 +166,7 @@ const PatientGallery = () => {
   },
   {
     id: '9',
-    patientName: 'Rose Mary',
+    patientName: '',
     age: 37,
     procedure: 'Brazillian Butt Lift',
     procedureCategory: 'Comprehensive Body Restoration',
