@@ -21,7 +21,7 @@ const Homepage = () => {
         <title>PlastiCare Hub - Transform with Confidence | Expert Aesthetic Surgery</title>
         <meta
           name="description"
-          content="Experience the perfect fusion of medical excellence and aesthetic artistry at MedBeauty Clinic. Board-certified surgeons specializing in transformative procedures. Book your consultation today."
+          content="Experience the perfect fusion of medical excellence and aesthetic artistry at Plasticare Hub. Board-certified surgeons specializing in transformative procedures. Book your consultation today."
         />
         <meta
           name="keywords"
