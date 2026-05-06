@@ -26,7 +26,7 @@ const PatientGallery = () => {
   const patientStories: PatientStory[] = [
   {
     id: '1',
-    patientName: '',
+    patientName: 'Rose',
     age: 42,
     procedure: 'Facelift & Neck Lift',
     procedureCategory: 'Facial Rejuvenation',
@@ -44,7 +44,7 @@ const PatientGallery = () => {
   },
   {
     id: '2',
-    patientName: '',
+    patientName: 'Mary',
     age: 35,
     procedure: 'Breast Augmentation',
     procedureCategory: 'Body Contouring',
@@ -61,7 +61,7 @@ const PatientGallery = () => {
   },
   {
     id: '3',
-    patientName: '',
+    patientName: 'Patience',
     age: 38,
     procedure: 'Rhinoplasty',
     procedureCategory: 'Facial Enhancement',
@@ -79,7 +79,7 @@ const PatientGallery = () => {
   },
   {
     id: '4',
-    patientName: '',
+    patientName: 'May',
     age: 29,
     procedure: 'Liposuction & Tummy Tuck',
     procedureCategory: 'Body Contouring',
@@ -96,7 +96,7 @@ const PatientGallery = () => {
   },
   {
     id: '5',
-    patientName: '',
+    patientName: 'Robert',
     age: 51,
     procedure: 'Male Facelift & Eyelid Surgery',
     procedureCategory: 'Male Aesthetics',
@@ -114,7 +114,7 @@ const PatientGallery = () => {
   },
   {
     id: '6',
-    patientName: '',
+    patientName: 'Lisa',
     age: 44,
     procedure: 'Breast Lift & Augmentation',
     procedureCategory: 'Breast Enhancement',
@@ -131,7 +131,7 @@ const PatientGallery = () => {
   },
   {
     id: '7',
-    patientName: '',
+    patientName: 'Felix',
     age: 33,
     procedure: 'Gynecomastia Surgery',
     procedureCategory: 'Male Body Contouring',
@@ -149,7 +149,7 @@ const PatientGallery = () => {
   },
   {
     id: '8',
-    patientName: '',
+    patientName: 'Bella',
     age: 37,
     procedure: 'Mommy Makeover',
     procedureCategory: 'Comprehensive Body Restoration',
@@ -166,7 +166,7 @@ const PatientGallery = () => {
   },
   {
     id: '9',
-    patientName: '',
+    patientName: 'Merab',
     age: 37,
     procedure: 'Brazillian Butt Lift',
     procedureCategory: 'Comprehensive Body Restoration',
