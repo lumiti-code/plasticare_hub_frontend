@@ -10,6 +10,7 @@ import Icon from '../../components/AppIcon';
 import type { Surgeon, FilterOptions, Consultation } from './types';
 import ConsultationModal from '../../components/ConsultationModal';
 import { plasticareSurgeons } from '../../../data/surgeons';
+import { Link } from 'react-router-dom';
 
 const SurgeonsPage = () => {
   const [filters, setFilters] = useState<FilterOptions>({
@@ -50,6 +51,15 @@ const SurgeonsPage = () => {
   const handleFilterChange = (newFilters: FilterOptions) => {
     setFilters(newFilters);
   };
+
+  const socialLinks = [
+    { icon: 'Facebook', url: 'https://www.facebook.com/plasticsurgeryservic', label: 'Facebook' },
+    { icon: 'Instagram', url: 'https://www.instagram.com/plasticsurgery.kenya/', label: 'Instagram' },
+    // { icon: 'Twitter', url: '#', label: 'Twitter' },
+    // { icon: 'Youtube', url: '#', label: 'YouTube' },
+    // { icon: 'Linkedin', url: '#', label: 'LinkedIn' },
+    { icon: 'Music', url: 'https://www.tiktok.com/@plasticarehub', label: 'TikTok' }
+  ];
 
   return (
     <>
@@ -127,12 +137,25 @@ const SurgeonsPage = () => {
                 <p className="font-body text-sm text-text-secondary mb-4">
                   Where medical excellence meets aesthetic artistry
                 </p>
-                <div className="flex items-center space-x-4">
-                  <Icon name="Facebook" size={20} className="text-text-secondary hover:text-primary cursor-pointer transition-brand" />
-                  <Icon name="Instagram" size={20} className="text-text-secondary hover:text-primary cursor-pointer transition-brand" />
-                  <Icon name="Twitter" size={20} className="text-text-secondary hover:text-primary cursor-pointer transition-brand" />
-                  <Icon name="Youtube" size={20} className="text-text-secondary hover:text-primary cursor-pointer transition-brand" />
+                <div className="flex gap-3">
+                  {socialLinks?.map((social) => (
+                    <a
+                      key={social?.label}
+                      href={social?.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary flex items-center justify-center transition-brand group"
+                      aria-label={social?.label}
+                    >
+                      <Icon
+                        name={social?.icon}
+                        size={18}
+                        className="text-primary group-hover:text-primary-foreground transition-brand"
+                      />
+                    </a>
+                  ))}
                 </div>
+              </div>
               </div>
 
               <div>
