@@ -156,7 +156,6 @@ const SurgeonsPage = () => {
                   ))}
                 </div>
               </div>
-              </div>
 
               <div>
                 <h4 className="font-body text-sm font-semibold text-text-primary mb-4">
