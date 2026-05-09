@@ -25,6 +25,15 @@ const Footer = () => {
     ],
   };
 
+  const socialLinks = [
+    { icon: 'Facebook', url: 'https://www.facebook.com/plasticsurgeryservic', label: 'Facebook' },
+    { icon: 'Instagram', url: 'https://www.instagram.com/plasticsurgery.kenya/', label: 'Instagram' },
+    // { icon: 'Twitter', url: '#', label: 'Twitter' },
+    // { icon: 'Youtube', url: '#', label: 'YouTube' },
+    // { icon: 'Linkedin', url: '#', label: 'LinkedIn' },
+    { icon: 'Music', url: 'https://www.tiktok.com/@plasticarehub', label: 'TikTok' }
+  ];
+
   return (
     <footer className="bg-text-primary text-background">
       <div className="w-full px-4 sm:px-6 lg:px-8 py-16">
@@ -73,14 +82,21 @@ const Footer = () => {
                 Where medical excellence meets aesthetic artistry. Transform with confidence through expert care.
               </p>
               <div className="flex gap-3">
-                {['Facebook', 'Instagram', 'Twitter', 'Linkedin']?.map((social) => (
-                  <button
-                    key={social}
-                    className="w-10 h-10 rounded-lg bg-background/10 hover:bg-primary transition-brand flex items-center justify-center"
-                    aria-label={`Visit our ${social} page`}
+                {socialLinks?.map((social) => (
+                  <a
+                    key={social?.label}
+                    href={social?.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary flex items-center justify-center transition-brand group"
+                    aria-label={social?.label}
                   >
-                    <Icon name={social} size={18} />
-                  </button>
+                    <Icon
+                      name={social?.icon}
+                      size={18}
+                      className="text-primary group-hover:text-primary-foreground transition-brand"
+                    />
+                  </a>
                 ))}
               </div>
             </div>
