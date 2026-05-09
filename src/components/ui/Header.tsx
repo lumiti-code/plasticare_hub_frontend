@@ -60,7 +60,7 @@ const Header = ({ className = '' }: HeaderProps) => {
                   <Image
                   src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/plasticarehub_logo-nobg1.png"
                   alt="plasticarehub logo"
-                  className="w-20 h-20 object-cover group-hover:scale-110 transition-confident" />
+                  className="w-24 h-24 object-cover group-hover:scale-110 transition-confident" />
                 
                 {/* <svg
                   width="48"
