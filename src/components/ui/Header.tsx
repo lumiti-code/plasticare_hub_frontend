@@ -4,7 +4,7 @@ import Icon from '../AppIcon';
 import Button from './Button';
 import ConsultationModal from 'components/ConsultationModal';
 import FreeEnquiry from 'components/FreeEnquiry';
-import Image from '../components/AppImage';
+import Image from '../AppImage';
 
 interface HeaderProps {
   className?: string;
