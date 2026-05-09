@@ -9,6 +9,7 @@ import { RbacComponents } from 'components/RBAComponents';
 import { useFormSubmit } from 'components/useFormSubmit';
 import { getUserAuthToken, getUserId, getUserRole } from 'components/RBAC';
 import toast from 'react-hot-toast';
+import Image from '../../../components/AppImage';
 
 interface AdminHeaderProps {
   className?: string;
@@ -87,7 +88,12 @@ const AdminHeader = ({ className = '' }: AdminHeaderProps) => {
           <div className="flex items-center justify-between h-20">
             <Link to="/dashboard/admin" className="flex items-center space-x-3 group">
               <div className="relative">
-                <svg
+
+                  <Image
+                  src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/plasticarehub_logo-nobg1.png"
+                  alt="plasticarehub logo"
+                  className="w-24 h-24 object-cover group-hover:scale-110 transition-confident" />
+                {/* <svg
                   width="48"
                   height="48"
                   viewBox="0 0 48 48"
@@ -115,7 +121,7 @@ const AdminHeader = ({ className = '' }: AdminHeaderProps) => {
                       <stop offset="1" stopColor="#C08497" />
                     </linearGradient>
                   </defs>
-                </svg>
+                </svg> */}
               </div>
               <div className="flex flex-col">
                 <span className="font-headline text-xl font-semibold text-primary group-hover:text-gradient-rose transition-brand">
