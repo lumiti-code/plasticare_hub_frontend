@@ -4,6 +4,7 @@ import Icon from '../AppIcon';
 import Button from './Button';
 import ConsultationModal from 'components/ConsultationModal';
 import FreeEnquiry from 'components/FreeEnquiry';
+import Image from '../components/AppImage';
 
 interface HeaderProps {
   className?: string;
@@ -55,7 +56,13 @@ const Header = ({ className = '' }: HeaderProps) => {
           <div className="flex items-center justify-between h-20">
             <Link to="/homepage" className="flex items-center space-x-3 group">
               <div className="relative">
-                <svg
+
+                  <Image
+                  src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/plasticarehub_logo-nobg1.png"
+                  alt="plasticarehub logo"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-confident" />
+                
+                {/* <svg
                   width="48"
                   height="48"
                   viewBox="0 0 48 48"
@@ -83,7 +90,7 @@ const Header = ({ className = '' }: HeaderProps) => {
                       <stop offset="1" stopColor="#C08497" />
                     </linearGradient>
                   </defs>
-                </svg>
+                </svg> */}
               </div>
               <div className="flex flex-col">
                 <span className="font-headline text-xl font-semibold text-primary group-hover:text-gradient-rose transition-brand">
