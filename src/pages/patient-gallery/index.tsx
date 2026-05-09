@@ -26,7 +26,7 @@ const PatientGallery = () => {
   const patientStories: PatientStory[] = [
   {
     id: '1',
-    patientName: 'Rose',
+    patientName: 'Ella',
     age: 42,
     procedure: 'Facelift & Neck Lift',
     procedureCategory: 'Facial Rejuvenation',
