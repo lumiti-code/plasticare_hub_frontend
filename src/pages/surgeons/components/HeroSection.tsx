@@ -58,7 +58,7 @@ const HeroSection = ( { onOpen } : heroSectionProps ) => {
               <div className="flex items-center justify-center w-12 h-12 bg-primary/20 rounded-full mb-4 mx-auto">
                 <Icon name="GraduationCap" size={24} className="text-primary" />
               </div>
-              <h3 className="font-headline text-2xl font-bold text-text-primary mb-2">50+</h3>
+              <h3 className="font-headline text-2xl font-bold text-text-primary mb-2">10+</h3>
               <p className="font-body text-sm text-text-secondary">Years Combined Experience</p>
             </div>
 
@@ -66,7 +66,7 @@ const HeroSection = ( { onOpen } : heroSectionProps ) => {
               <div className="flex items-center justify-center w-12 h-12 bg-primary/20 rounded-full mb-4 mx-auto">
                 <Icon name="Users" size={24} className="text-primary" />
               </div>
-              <h3 className="font-headline text-2xl font-bold text-text-primary mb-2">5,000+</h3>
+              <h3 className="font-headline text-2xl font-bold text-text-primary mb-2">7500+</h3>
               <p className="font-body text-sm text-text-secondary">Successful Procedures</p>
             </div>
 
