@@ -1,7 +1,7 @@
 import Icon from '../../../components/AppIcon';
 import { Award, Statistic } from '../types';
 
-// const TrustIndicators = () => {
+const TrustIndicators = () => {
 //   const awards: Award[] = [
 //     {
 //       id: "1",
