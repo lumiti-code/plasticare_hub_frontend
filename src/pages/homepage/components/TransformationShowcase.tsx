@@ -11,7 +11,7 @@ const TransformationShowcase = () => {
   const transformations: Transformation[] = [
   {
     id: "1",
-    patientName: "Sarah M.",
+    patientName: "",
     procedure: "Rhinoplasty",
     beforeImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/rhinoplasty-before.jpg",
     beforeAlt: "Woman's face profile showing original nose shape before rhinoplasty surgery",
@@ -23,7 +23,7 @@ const TransformationShowcase = () => {
   },
   {
     id: "2",
-    patientName: "Jennifer L.",
+    patientName: "",
     procedure: "Breast Augmentation",
     beforeImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/breast-augmentation.jpg",
     beforeAlt: "Woman in swimwear showing natural breast size before augmentation procedure",
@@ -35,7 +35,7 @@ const TransformationShowcase = () => {
   },
   {
     id: "3",
-    patientName: "Michelle R.",
+    patientName: "",
     procedure: "Tummy Tuck",
     beforeImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/tummy-tuck-before.jpg",
     beforeAlt: "Woman's abdomen showing loose skin and excess tissue before tummy tuck surgery",
@@ -47,7 +47,7 @@ const TransformationShowcase = () => {
   },
   {
     id: "4",
-    patientName: "Lisa K.",
+    patientName: "",
     procedure: "Facelift",
     beforeImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/facelift-before.jpg",
     beforeAlt: "Mature woman's face showing signs of aging with sagging skin before facelift",
