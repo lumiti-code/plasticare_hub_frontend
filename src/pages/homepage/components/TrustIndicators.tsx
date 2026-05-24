@@ -36,7 +36,7 @@ const TrustIndicators = () => {
   const statistics: Statistic[] = [
     {
       id: "1",
-      value: "15,000+",
+      value: "750+",
       label: "Successful Procedures",
       icon: "CheckCircle"
     },
@@ -48,13 +48,13 @@ const TrustIndicators = () => {
     },
     {
       id: "3",
-      value: "25+",
+      value: "10+",
       label: "Years Experience",
       icon: "Calendar"
     },
     {
       id: "4",
-      value: "12",
+      value: "",
       label: "Board-Certified Surgeons",
       icon: "Users"
     }
