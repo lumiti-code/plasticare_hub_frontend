@@ -179,7 +179,7 @@ const TestimonialSection = () => {
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-4">
                 <Icon name="Users" size={32} color="var(--color-primary)" />
               </div>
-              <div className="font-headline text-3xl font-bold text-primary mb-2">2,500+</div>
+              <div className="font-headline text-3xl font-bold text-primary mb-2">1,000+</div>
               <p className="font-body text-sm text-text-secondary">Happy Patients</p>
             </div>
 
