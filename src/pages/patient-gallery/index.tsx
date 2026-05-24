@@ -281,7 +281,7 @@ const PatientGallery = () => {
               <StatsSection
                 totalTransformations={totalTransform}
                 averageConfidence={averageConfidence}
-                procedureCount={procCount}
+                procedureCount={procCount} />
               {/* <StatsSection
                 totalTransformations={patientStories.length}
                 averageConfidence={averageConfidence}
