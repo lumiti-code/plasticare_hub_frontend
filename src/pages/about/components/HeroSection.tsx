@@ -62,9 +62,9 @@ const HeroSection = () => {
 
           <div className="mt-12 grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-3xl mx-auto">
             {[
-            { value: '15+', label: 'Years Excellence' },
-            { value: '50K+', label: 'Happy Patients' },
-            { value: '25+', label: 'Expert Surgeons' },
+            { value: '10+', label: 'Years Experience' },
+            { value: '1K+', label: 'Happy Patients' },
+            { value: 'Multiple', label: 'Expert Surgeons' },
             { value: '100%', label: 'Safety Record' }]?.
             map((stat, index) =>
             <div
