@@ -20,7 +20,7 @@ const CTASection = () => {
             </h2>
 
             <p className="font-body text-lg lg:text-xl text-background/90 mb-8 max-w-2xl mx-auto leading-relaxed">
-              Experience the MedBeauty difference where medical excellence meets aesthetic artistry. Schedule your consultation today and discover how we can help you achieve your aesthetic goals with confidence.
+              Experience the Plasticare Hub difference where medical excellence meets aesthetic artistry. Schedule your consultation today and discover how we can help you achieve your aesthetic goals with confidence.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
