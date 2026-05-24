@@ -80,10 +80,10 @@ const AwardsSection = () => {
     publication: 'Medical Today Magazine',
     date: '2023-09-15',
     excerpt:
-    'MedBeauty Clinic is setting new standards in patient care and surgical innovation, combining medical excellence with luxury hospitality.',
+    'Plasticare Hub Clinic is setting new standards in patient care and surgical innovation, combining medical excellence with luxury hospitality.',
     image:
     "https://img.rocket.new/generatedImages/rocket_gen_img_11bf97689-1764716547117.png",
-    alt: 'Magazine cover featuring MedBeauty Clinic with headline about revolutionizing aesthetic surgery',
+    alt: 'Magazine cover featuring Plasticare Hub Clinic with headline about revolutionizing aesthetic surgery',
     link: '#'
   },
   {
@@ -104,10 +104,10 @@ const AwardsSection = () => {
     publication: 'National Health News',
     date: '2023-03-10',
     excerpt:
-    'Inside look at how MedBeauty Clinic maintains its reputation for exceptional patient outcomes and satisfaction.',
+    'Inside look at how Plasticare Hub Clinic maintains its reputation for exceptional patient outcomes and satisfaction.',
     image:
     "https://img.rocket.new/generatedImages/rocket_gen_img_1adff19af-1764799323010.png",
-    alt: 'News article featuring MedBeauty Clinic patient care facilities and staff',
+    alt: 'News article featuring Plasticare Hub Clinic patient care facilities and staff',
     link: '#'
   },
   {
@@ -116,10 +116,10 @@ const AwardsSection = () => {
     publication: 'Beauty & Wellness Quarterly',
     date: '2022-11-05',
     excerpt:
-    'How MedBeauty Clinic is redefining the aesthetic surgery experience with cutting-edge technology and personalized care.',
+    'How Plasticare Hub Clinic is redefining the aesthetic surgery experience with cutting-edge technology and personalized care.',
     image:
     "https://img.rocket.new/generatedImages/rocket_gen_img_1f4bfff8b-1765003959180.png",
-    alt: 'Quarterly magazine spread showcasing MedBeauty Clinic technology and facilities',
+    alt: 'Quarterly magazine spread showcasing Plasticare Hub Clinic technology and facilities',
     link: '#'
   }];
 
