@@ -24,8 +24,8 @@ const About = () => {
         <FacilityTourSection />
         <TechnologySection />
         <TeamSection />
-        <CertificationsSection />
-        <AwardsSection />
+        {/* <CertificationsSection /> */}
+        {/* <AwardsSection /> */}
         <CTASection />
       </main>
       <Footer />
