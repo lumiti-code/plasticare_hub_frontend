@@ -48,15 +48,15 @@ const CTASection = () => {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-background/20">
               <div className="text-center">
                 <div className="font-headline text-3xl font-bold text-background mb-2">
-                  15+
+                  10+
                 </div>
                 <div className="font-body text-sm text-background/90">
-                  Years of Excellence
+                  Years of Experience
                 </div>
               </div>
               <div className="text-center">
                 <div className="font-headline text-3xl font-bold text-background mb-2">
-                  50K+
+                  1K+
                 </div>
                 <div className="font-body text-sm text-background/90">
                   Satisfied Patients
