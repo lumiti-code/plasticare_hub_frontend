@@ -216,7 +216,7 @@ const FacilityTourSection = () => {
               Experience Our Facility in 360°
             </h3>
             <p className="font-body text-lg text-background/90 mb-6 max-w-2xl mx-auto">
-              Schedule a personalized virtual tour with one of our patient coordinators, or visit us in person to experience the MedBeauty difference firsthand.
+              Schedule a personalized virtual tour with one of our patient coordinators, or visit us in person to experience the Plasticare Hub difference firsthand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
