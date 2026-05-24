@@ -30,7 +30,7 @@ const TransformationShowcase = () => {
     afterImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/breast-augmentation.jpg",
     afterAlt: "Woman in swimwear showing enhanced, natural-looking breast size after augmentation",
     timeframe: "3 months post-op",
-    testimonial: "I finally feel like myself. The natural-looking results and minimal scarring are exactly what I hoped for. Thank you, MedBeauty team!",
+    testimonial: "I finally feel like myself. The natural-looking results and minimal scarring are exactly what I hoped for. Thank you, Plasticare Hub team!",
     age: 28
   },
   {
