@@ -26,7 +26,7 @@ const PatientGallery = () => {
   const patientStories: PatientStory[] = [
   {
     id: '1',
-    patientName: 'Ella',
+    patientName: '',
     age: 42,
     procedure: 'Facelift & Neck Lift',
     procedureCategory: 'Facial Rejuvenation',
@@ -44,7 +44,7 @@ const PatientGallery = () => {
   },
   {
     id: '2',
-    patientName: 'Mary',
+    patientName: '',
     age: 35,
     procedure: 'Breast Augmentation',
     procedureCategory: 'Body Contouring',
@@ -61,7 +61,7 @@ const PatientGallery = () => {
   },
   {
     id: '3',
-    patientName: 'Patience',
+    patientName: '',
     age: 38,
     procedure: 'Rhinoplasty',
     procedureCategory: 'Facial Enhancement',
@@ -79,7 +79,7 @@ const PatientGallery = () => {
   },
   {
     id: '4',
-    patientName: 'May',
+    patientName: '',
     age: 29,
     procedure: 'Liposuction & Tummy Tuck',
     procedureCategory: 'Body Contouring',
@@ -96,7 +96,7 @@ const PatientGallery = () => {
   },
   {
     id: '5',
-    patientName: 'Robert',
+    patientName: '',
     age: 51,
     procedure: 'Male Facelift & Eyelid Surgery',
     procedureCategory: 'Male Aesthetics',
@@ -114,7 +114,7 @@ const PatientGallery = () => {
   },
   {
     id: '6',
-    patientName: 'Lisa',
+    patientName: '',
     age: 44,
     procedure: 'Breast Lift & Augmentation',
     procedureCategory: 'Breast Enhancement',
@@ -131,7 +131,7 @@ const PatientGallery = () => {
   },
   {
     id: '7',
-    patientName: 'Felix',
+    patientName: '',
     age: 33,
     procedure: 'Gynecomastia Surgery',
     procedureCategory: 'Male Body Contouring',
@@ -149,7 +149,7 @@ const PatientGallery = () => {
   },
   {
     id: '8',
-    patientName: 'Bella',
+    patientName: '',
     age: 37,
     procedure: 'Mommy Makeover',
     procedureCategory: 'Comprehensive Body Restoration',
@@ -166,7 +166,7 @@ const PatientGallery = () => {
   },
   {
     id: '9',
-    patientName: 'Merab',
+    patientName: '',
     age: 37,
     procedure: 'Brazillian Butt Lift',
     procedureCategory: 'Comprehensive Body Restoration',
@@ -276,9 +276,13 @@ const PatientGallery = () => {
           <section className="py-16 bg-surface">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <StatsSection
+                totalTransformations=750
+                averageConfidence={averageConfidence}
+                procedureCount='Over 30'
+              {/* <StatsSection
                 totalTransformations={patientStories.length}
                 averageConfidence={averageConfidence}
-                procedureCount={filterOptions.procedureType.length} />
+                procedureCount={filterOptions.procedureType.length} /> */}
 
             </div>
           </section>
