@@ -219,16 +219,19 @@ const PatientGallery = () => {
     setIsModalOpen(true);
   };
 
+  const totalTransform = 750;
+  const procCount = 'Over 20';
+
   const handleSubmit : any = () => 
   {}
 
   return (
     <>
       <Helmet>
-        <title>Patient Gallery - Real Transformation Stories | MedBeauty Clinic</title>
+        <title>Patient Gallery - Real Transformation Stories | Plasticare Hub Clinic</title>
         <meta
           name="description"
-          content="Explore authentic before and after transformations from our patients. Real stories, real results, real confidence. See how MedBeauty Clinic has helped patients achieve their aesthetic goals." />
+          content="Explore authentic before and after transformations from our patients. Real stories, real results, real confidence. See how Plasticare Hub Clinic has helped patients achieve their aesthetic goals." />
 
       </Helmet>
 
@@ -276,9 +279,9 @@ const PatientGallery = () => {
           <section className="py-16 bg-surface">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
               <StatsSection
-                totalTransformations={750}
+                totalTransformations={totalTransform}
                 averageConfidence={averageConfidence}
-                procedureCount={'Over 20'}
+                procedureCount={procCount}
               {/* <StatsSection
                 totalTransformations={patientStories.length}
                 averageConfidence={averageConfidence}
