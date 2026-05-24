@@ -282,11 +282,6 @@ const PatientGallery = () => {
                 totalTransformations={totalTransform}
                 averageConfidence={averageConfidence}
                 procedureCount={procCount} />
-              {/* <StatsSection
-                totalTransformations={patientStories.length}
-                averageConfidence={averageConfidence}
-                procedureCount={filterOptions.procedureType.length} /> */}
-
             </div>
           </section>
 
