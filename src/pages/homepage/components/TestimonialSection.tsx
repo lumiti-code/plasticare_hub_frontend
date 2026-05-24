@@ -9,45 +9,45 @@ const TestimonialSection = () => {
   const testimonials: Testimonial[] = [
   {
     id: "1",
-    patientName: "Amanda Thompson",
+    patientName: "",
     procedure: "Breast Augmentation",
     rating: 5,
     comment: "From my first consultation to my final follow-up, the entire MedBeauty team made me feel comfortable and confident. Dr. Chen's expertise and attention to detail resulted in natural-looking results that exceeded my expectations. I finally feel like the best version of myself!",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ee44b618-1763299396058.png",
-    alt: "Amanda Thompson, satisfied patient smiling confidently in casual attire after breast augmentation",
+    alt: "Satisfied patient smiling confidently in casual attire after breast augmentation",
     date: "March 15, 2024",
     verified: true
   },
   {
     id: "2",
-    patientName: "Rebecca Martinez",
+    patientName: "",
     procedure: "Rhinoplasty",
     rating: 5,
     comment: "Dr. Anderson is a true artist! She listened to my concerns and created a treatment plan that addressed all my goals. The results are incredible - my nose looks natural and perfectly suits my face. The recovery was easier than I expected, and the staff was amazing throughout the entire process.",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_162ab445a-1764906559048.png",
-    alt: "Rebecca Martinez, happy patient with refined nose profile in professional setting after rhinoplasty",
+    alt: "Happy patient with refined nose profile in professional setting after rhinoplasty",
     date: "February 28, 2024",
     verified: true
   },
   {
     id: "3",
-    patientName: "Jessica Williams",
+    patientName: "",
     procedure: "Mommy Makeover",
     rating: 5,
     comment: "After having three children, I never thought I'd feel confident in my body again. Dr. Martinez and her team gave me back my confidence with a comprehensive mommy makeover. The care, professionalism, and results have been life-changing. I'm so grateful to the entire MedBeauty family!",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_12683662b-1763294876616.png",
-    alt: "Jessica Williams, confident mother in elegant dress showing transformed figure after mommy makeover",
+    alt: "Confident mother in elegant dress showing transformed figure after mommy makeover",
     date: "January 20, 2024",
     verified: true
   },
   {
     id: "4",
-    patientName: "Lauren Davis",
+    patientName: "",
     procedure: "Facelift",
     rating: 5,
     comment: "At 55, I wanted to look refreshed without looking 'done'. Dr. Anderson's natural approach to facial rejuvenation was exactly what I needed. People tell me I look rested and vibrant, not like I've had work done. The entire experience was first-class from start to finish.",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1f34d8e5b-1763295705732.png",
-    alt: "Lauren Davis, mature woman with naturally refreshed appearance in professional attire after facelift",
+    alt: "Mature woman with naturally refreshed appearance in professional attire after facelift",
     date: "December 10, 2023",
     verified: true
   }];
