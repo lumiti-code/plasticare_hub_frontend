@@ -1,37 +1,37 @@
 import Icon from '../../../components/AppIcon';
 import { Award, Statistic } from '../types';
 
-const TrustIndicators = () => {
-  const awards: Award[] = [
-    {
-      id: "1",
-      title: "Best Aesthetic Clinic 2024",
-      organization: "American Board of Cosmetic Surgery",
-      year: "2024",
-      icon: "Award"
-    },
-    {
-      id: "2",
-      title: "Excellence in Patient Care",
-      organization: "Healthcare Quality Association",
-      year: "2023",
-      icon: "Heart"
-    },
-    {
-      id: "3",
-      title: "Top Plastic Surgery Center",
-      organization: "Medical Excellence Awards",
-      year: "2024",
-      icon: "Star"
-    },
-    {
-      id: "4",
-      title: "Innovation in Aesthetics",
-      organization: "International Society of Aesthetic Plastic Surgery",
-      year: "2023",
-      icon: "Sparkles"
-    }
-  ];
+// const TrustIndicators = () => {
+//   const awards: Award[] = [
+//     {
+//       id: "1",
+//       title: "Best Aesthetic Clinic 2024",
+//       organization: "American Board of Cosmetic Surgery",
+//       year: "2024",
+//       icon: "Award"
+//     },
+//     {
+//       id: "2",
+//       title: "Excellence in Patient Care",
+//       organization: "Healthcare Quality Association",
+//       year: "2023",
+//       icon: "Heart"
+//     },
+//     {
+//       id: "3",
+//       title: "Top Plastic Surgery Center",
+//       organization: "Medical Excellence Awards",
+//       year: "2024",
+//       icon: "Star"
+//     },
+//     {
+//       id: "4",
+//       title: "Innovation in Aesthetics",
+//       organization: "International Society of Aesthetic Plastic Surgery",
+//       year: "2023",
+//       icon: "Sparkles"
+//     }
+//   ];
 
   const statistics: Statistic[] = [
     {
@@ -92,7 +92,7 @@ const TrustIndicators = () => {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {awards.map((award) => (
               <div
                 key={award.id}
@@ -118,7 +118,7 @@ const TrustIndicators = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
 
           <div className="mt-12 text-center">
             <div className="inline-flex items-center gap-2 px-6 py-3 bg-primary/10 rounded-full">
