@@ -12,7 +12,7 @@ const TestimonialSection = () => {
     patientName: "",
     procedure: "Breast Augmentation",
     rating: 5,
-    comment: "From my first consultation to my final follow-up, the entire MedBeauty team made me feel comfortable and confident. Dr. Chen's expertise and attention to detail resulted in natural-looking results that exceeded my expectations. I finally feel like the best version of myself!",
+    comment: "From my first consultation to my final follow-up, the entire Plasticare Hub team made me feel comfortable and confident. Dr. Chen's expertise and attention to detail resulted in natural-looking results that exceeded my expectations. I finally feel like the best version of myself!",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ee44b618-1763299396058.png",
     alt: "Satisfied patient smiling confidently in casual attire after breast augmentation",
     date: "March 15, 2024",
@@ -34,7 +34,7 @@ const TestimonialSection = () => {
     patientName: "",
     procedure: "Mommy Makeover",
     rating: 5,
-    comment: "After having three children, I never thought I'd feel confident in my body again. Dr. Martinez and her team gave me back my confidence with a comprehensive mommy makeover. The care, professionalism, and results have been life-changing. I'm so grateful to the entire MedBeauty family!",
+    comment: "After having three children, I never thought I'd feel confident in my body again. Dr. Martinez and her team gave me back my confidence with a comprehensive mommy makeover. The care, professionalism, and results have been life-changing. I'm so grateful to the entire Plasticare Hub family!",
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_12683662b-1763294876616.png",
     alt: "Confident mother in elegant dress showing transformed figure after mommy makeover",
     date: "January 20, 2024",
@@ -78,7 +78,7 @@ const TestimonialSection = () => {
               Patient Stories & Testimonials
             </h2>
             <p className="font-body text-base sm:text-lg text-text-secondary max-w-3xl mx-auto">
-              Hear directly from our patients about their transformation journeys and experiences at MedBeauty Clinic
+              Hear directly from our patients about their transformation journeys and experiences at Plasticare Hub Clinic
             </p>
           </div>
 
