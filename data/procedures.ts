@@ -9,7 +9,7 @@ export const plasticareProcedures : any[] = [
     bodyArea: 'nose',
     recoveryTime: '1-2 weeks',
     priceRange: '$1,800 - $6,000',
-                'Ksh200,000 - $800,000',
+                'Ksh200,000 - Ksh800,000',
     duration: '2-3 hours',
     anesthesia: 'General',
     isPopular: true,
