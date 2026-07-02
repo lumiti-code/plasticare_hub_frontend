@@ -18,7 +18,7 @@ const TransformationShowcase = () => {
     afterImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/rhinoplasty-after.jpg",
     afterAlt: "Woman's face profile showing refined, harmonious nose shape after rhinoplasty",
     timeframe: "6 months post-op",
-    testimonial: "Dr. Anderson transformed not just my appearance, but my entire confidence. The results exceeded my expectations, and the care I received was exceptional.",
+    testimonial: "Dr. Masitara transformed not just my appearance, but my entire confidence. The results exceeded my expectations, and the care I received was exceptional.",
     age: 32
   },
   {
@@ -42,7 +42,7 @@ const TransformationShowcase = () => {
     afterImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/tummy-tuck-after.jpg",
     afterAlt: "Woman's abdomen showing flat, toned appearance with smooth contours after tummy tuck",
     timeframe: "8 months post-op",
-    testimonial: "After two pregnancies, I never thought I'd feel confident in a bikini again. Dr. Chen's expertise gave me my body back. Forever grateful!",
+    testimonial: "After two pregnancies, I never thought I'd feel confident in a bikini again. Dr. Michael's expertise gave me my body back. Forever grateful!",
     age: 35
   },
   {
@@ -54,7 +54,7 @@ const TransformationShowcase = () => {
     afterImage: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/facelift-after.jpg",
     afterAlt: "Mature woman's face showing lifted, rejuvenated appearance with natural results after facelift",
     timeframe: "1 year post-op",
-    testimonial: "The natural-looking results are amazing. People say I look refreshed and rested, not 'done'. Dr. Martinez is a true artist.",
+    testimonial: "The natural-looking results are amazing. People say I look refreshed and rested, not 'done'. Prof. Khainga is a true artist.",
     age: 52
   }];
 
