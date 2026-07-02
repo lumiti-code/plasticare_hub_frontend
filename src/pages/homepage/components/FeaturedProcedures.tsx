@@ -24,7 +24,7 @@ const FeaturedProcedures = () => {
     description: "Reshape and refine your nose for improved facial harmony and breathing function",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/rhinoplasty.jpg",
     alt: "Close-up of woman's face showing refined nose profile after rhinoplasty procedure",
-    price: "Starting at $6,000/Ksh750,000",
+    price: "Starting at $1,934/Ksh250,000",
     duration: "2-3 hours",
     recovery: "1-2 weeks",
     popular: true
@@ -36,7 +36,7 @@ const FeaturedProcedures = () => {
     description: "Enhance breast size and shape with natural-looking implants or fat transfer",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/breast-augmentation.jpg",
     alt: "Professional woman in elegant dress showing confident posture after breast augmentation",
-    price: "Starting at $4,650/Ksh600,000",
+    price: "Starting at $3,482/Ksh450,000",
     duration: "1-2 hours",
     recovery: "1 week",
     popular: true
@@ -48,7 +48,7 @@ const FeaturedProcedures = () => {
     description: "Remove stubborn fat deposits and sculpt your body contours for a slimmer silhouette",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/liposuction.jpg",
     alt: "Fit woman in athletic wear showing toned body contours after liposuction procedure",
-    price: "Starting at $5,030/Ksh650,000",
+    price: "Starting at $2,708/Ksh350,000",
     duration: "2-4 hours",
     recovery: "1-2 weeks",
     popular: true
@@ -60,7 +60,7 @@ const FeaturedProcedures = () => {
     description: "Turn back the clock with comprehensive facial rejuvenation for a youthful appearance",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/facelift.jpg",
     alt: "Mature woman with smooth, lifted facial features showing natural-looking facelift results",
-    price: "Starting at $3,500/Ksh450,000",
+    price: "Starting at $3,482/Ksh450,000",
     duration: "3-5 hours",
     recovery: "2-3 weeks",
     popular: false
@@ -84,7 +84,7 @@ const FeaturedProcedures = () => {
     description: "Achieve a flatter, firmer abdomen by removing excess skin and tightening muscles",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/tummy-tuck.jpg",
     alt: "Woman in fitness attire showing flat, toned abdomen after tummy tuck surgery",
-    price: "Starting at $5,030/Ksh650,000",
+    price: "Starting at $3,482/Ksh450,000",
     duration: "2-4 hours",
     recovery: "2-4 weeks",
     popular: false
@@ -108,7 +108,7 @@ const FeaturedProcedures = () => {
     description: "Restore youthful breast position and shape by lifting and reshaping sagging tissue",
     image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/breast-augmentation.jpg",
     alt: "Woman in elegant top showing lifted, youthful breast contours after mastopexy",
-    price: "Starting at $5,030/Ksh650,000",
+    price: "Starting at $3,482/Ksh450,000",
     duration: "2-3 hours",
     recovery: "1-2 weeks",
     popular: false
