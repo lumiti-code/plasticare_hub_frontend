@@ -64,7 +64,7 @@ export const plasticareProcedures : any[] = [
     detailedDescription: `This is one of the most commonly performed plastic surgery procedures. There are many choices and decisions to be made in this type of surgery. It's about more than the size of your breasts. It's about your body size and shape, symmetry, and achieving an appearance that fits your expectations and your lifestyle.\n\nWe help you decide the size and type of implant, its placement, and the location of the incision. We take the time to fully understand the outcome you want, and explain the options in detail to help you make the choices that are right for you.\n\nImplants can be placed directly beneath the breast, or inserted deeper under the pectoralis muscle that lies under the breast. We often recommend the under-the-muscle placement for patients who are thin and have little breast tissue.`,
     bodyArea: 'breast',
     recoveryTime: '1-2 weeks',
-    priceRange: '$6,000 - $12,000',
+    priceRange: '$3,490 - $4,650',
     duration: '1-2 hours',
     anesthesia: 'General',
     isPopular: true,
