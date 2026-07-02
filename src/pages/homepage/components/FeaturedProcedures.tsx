@@ -34,7 +34,7 @@ const FeaturedProcedures = () => {
     name: "Breast Augmentation",
     category: "breast",
     description: "Enhance breast size and shape with natural-looking implants or fat transfer",
-    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Breast%20Augmentation%20After.jpg",
+    image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/breast-augmentation.jpg",
     alt: "Professional woman in elegant dress showing confident posture after breast augmentation",
     price: "Starting at $3,482/Ksh450,000",
     duration: "1-2 hours",
