@@ -46,7 +46,7 @@ const FeaturedProcedures = () => {
     name: "Liposuction",
     category: "body",
     description: "Remove stubborn fat deposits and sculpt your body contours for a slimmer silhouette",
-    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Lipo%20After.png",
+    image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/liposuction.jpg",
     alt: "Fit woman in athletic wear showing toned body contours after liposuction procedure",
     price: "Starting at $2,708/Ksh350,000",
     duration: "2-4 hours",
