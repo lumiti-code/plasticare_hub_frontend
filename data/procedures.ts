@@ -69,7 +69,7 @@ export const plasticareProcedures : any[] = [
     anesthesia: 'General',
     isPopular: true,
     isNew: false,
-    image: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/main/src/assets/images/breast-augmentation-after.jpg",
+    image: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/breast-augmentation.jpg",
     alt: 'Elegant woman in white dress showing natural feminine silhouette in soft studio lighting',
     benefits: [
       'Enhanced breast volume and fullness',
