@@ -11,7 +11,7 @@ const HeroSection = () => {
       title: "Transform with Confidence",
       subtitle: "Where Medical Excellence Meets Aesthetic Artistry",
       description: "Patient centred healthcare, medical treatment and advice with excellence in qulity, service and access",
-      video: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/landing1.png",
+      video: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Chin%20Reduction.jpeg",
       cta: "Book Your Consultation",
       id: "consultation-booking-section"
     },
@@ -19,7 +19,7 @@ const HeroSection = () => {
       title: "Your Journey to Confidence",
       subtitle: "Expert Care, Beautiful Results",
       description: "Board-certified surgeons specializing in transformative aesthetic and reconstructive procedures",
-      video: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/landing2.png",
+      video: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Breast.jpeg",
       cta: "Explore Procedures",
       id: "featured-procedures-section"
     },
@@ -27,7 +27,7 @@ const HeroSection = () => {
       title: "Empowerment Through Excellence",
       subtitle: "Personalized Care, Exceptional Outcomes",
       description: "State-of-the-art facility combining medical expertise with luxury hospitality",
-      video: "https://raw.githubusercontent.com/ranger-rango/plasticare-hub-frontend/refs/heads/main/src/assets/images/landing3.png",
+      video: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Breast%20%20Lift%201.jpeg",
       cta: "Meet Our Surgeons",
       id: "surgeon-spotlight-section"
     }
