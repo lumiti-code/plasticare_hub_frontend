@@ -12,7 +12,7 @@ const AwardsSection = () => {
     description:
     'Recognized for outstanding patient care, surgical excellence, and innovative aesthetic procedures.',
     image:
-    "https://img.rocket.new/generatedImages/rocket_gen_img_19d6a54c5-1764680144812.png",
+    "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Chin%20Reduction.jpeg",
     alt: 'Gold trophy award for Best Plastic Surgery Clinic with engraved plaque'
   },
   {
@@ -21,7 +21,7 @@ const AwardsSection = () => {
     organization: 'American Society of Plastic Surgeons',
     year: 2023,
     description:
-    'Dr. Sarah Mitchell honored for exceptional contributions to the field of aesthetic surgery.',
+    'Dr. Masitara honored for exceptional contributions to the field of aesthetic surgery.',
     image:
     "https://img.rocket.new/generatedImages/rocket_gen_img_10222cf36-1764651001233.png",
     alt: 'Crystal award plaque for Top Surgeon Recognition with ASPS logo'
