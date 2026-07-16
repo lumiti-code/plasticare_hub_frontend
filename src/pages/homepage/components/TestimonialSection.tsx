@@ -13,7 +13,7 @@ const TestimonialSection = () => {
     procedure: "Breast Augmentation",
     rating: 5,
     comment: "From my first consultation to my final follow-up, the entire Plasticare Hub team made me feel comfortable and confident. Dr. Masitara's expertise and attention to detail resulted in natural-looking results that exceeded my expectations. I finally feel like the best version of myself!",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1ee44b618-1763299396058.png",
+    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Breast%20Lift.jpeg",
     alt: "Satisfied patient smiling confidently in casual attire after breast augmentation",
     date: "March 15, 2026",
     verified: true
@@ -24,7 +24,7 @@ const TestimonialSection = () => {
     procedure: "Rhinoplasty",
     rating: 5,
     comment: "Prof. Khainga is a true artist! He listened to my concerns and created a treatment plan that addressed all my goals. The results are incredible - my nose looks natural and perfectly suits my face. The recovery was easier than I expected, and the staff was amazing throughout the entire process.",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_162ab445a-1764906559048.png",
+    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/rhinoplasty-before.jpg",
     alt: "Happy patient with refined nose profile in professional setting after rhinoplasty",
     date: "February 28, 2026",
     verified: true
@@ -35,7 +35,7 @@ const TestimonialSection = () => {
     procedure: "Mommy Makeover",
     rating: 5,
     comment: "After having three children, I never thought I'd feel confident in my body again. Dr. Masitara and his team gave me back my confidence with a comprehensive mommy makeover. The care, professionalism, and results have been life-changing. I'm so grateful to the entire Plasticare Hub family!",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_12683662b-1763294876616.png",
+    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Thigh.jpeg",
     alt: "Confident mother in elegant dress showing transformed figure after mommy makeover",
     date: "December 20, 2025",
     verified: true
@@ -46,7 +46,7 @@ const TestimonialSection = () => {
     procedure: "Facelift",
     rating: 5,
     comment: "At 55, I wanted to look refreshed without looking 'done'. Dr. Michael's natural approach to facial rejuvenation was exactly what I needed. People tell me I look rested and vibrant, not like I've had work done. The entire experience was first-class from start to finish.",
-    image: "https://img.rocket.new/generatedImages/rocket_gen_img_1f34d8e5b-1763295705732.png",
+    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Facelift.jpeg",
     alt: "Mature woman with naturally refreshed appearance in professional attire after facelift",
     date: "October 10, 2025",
     verified: true
