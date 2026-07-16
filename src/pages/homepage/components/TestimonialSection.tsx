@@ -13,7 +13,7 @@ const TestimonialSection = () => {
     procedure: "Breast Augmentation",
     rating: 5,
     comment: "From my first consultation to my final follow-up, the entire Plasticare Hub team made me feel comfortable and confident. Dr. Masitara's expertise and attention to detail resulted in natural-looking results that exceeded my expectations. I finally feel like the best version of myself!",
-    image: "https://github.com/lumiti-code/plasticare_hub_frontend/blob/main/src/assets/images/Breast%20Lift.jpeg",
+    image: "https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Breast%20%20Lift%201.jpeg",
     alt: "Satisfied patient smiling confidently in casual attire after breast augmentation",
     date: "March 15, 2026",
     verified: true
