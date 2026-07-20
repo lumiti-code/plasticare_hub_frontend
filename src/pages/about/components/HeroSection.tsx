@@ -33,7 +33,7 @@ const HeroSection = () => {
             <span className="text-gradient-rose">Meets Aesthetic Artistry</span>
           </h1>
 
-          <p className="font-body text-lg sm:text-xl text-background/90 mb-8 max-w-2xl mx-auto leading-relaxed">
+          <p className="font-body text-lg sm:text-xl text-white mb-8 max-w-2xl mx-auto leading-relaxed">
             Experience the perfect fusion of clinical precision and luxury wellness at our state-of-the-art facility, where your transformation journey begins with trust and confidence.
           </p>
 
