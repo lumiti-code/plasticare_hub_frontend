@@ -81,7 +81,7 @@ const PhilosophySection = () => {
             <div className="order-1 lg:order-2">
               <div className="relative rounded-2xl overflow-hidden shadow-brand">
                 <Image
-                  src="https://img.rocket.new/generatedImages/rocket_gen_img_157ab3c9e-1764651562342.png"
+                  src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Chin%20Reduction.jpeg"
                   alt="Experienced female surgeon in surgical scrubs consulting with patient in modern medical consultation room with natural lighting"
                   className="w-full h-[600px] object-cover" />
 
@@ -92,13 +92,13 @@ const PhilosophySection = () => {
                   </blockquote>
                   <div className="flex items-center gap-4">
                     <Image
-                      src="https://img.rocket.new/generatedImages/rocket_gen_img_155748a5d-1763296653785.png"
-                      alt="Dr. Sarah Mitchell, Chief Medical Officer, professional headshot in white medical coat"
+                      src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Facelift.jpeg"
+                      alt="Dr. Spanton Masitara, Chief Medical Officer, professional headshot in white medical coat"
                       className="w-12 h-12 rounded-full object-cover border-2 border-primary" />
 
                     <div>
                       <div className="font-body font-semibold text-text-primary">
-                        Dr. Sarah Mitchell
+                        Dr. Spanton Masitara
                       </div>
                       <div className="font-body text-sm text-text-secondary">
                         Chief Medical Officer
