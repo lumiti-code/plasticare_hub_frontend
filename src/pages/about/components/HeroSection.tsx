@@ -23,7 +23,7 @@ const HeroSection = () => {
           <div className="inline-flex items-center space-x-2 bg-background/90 backdrop-blur-sm px-6 py-3 rounded-full mb-6 shadow-soft">
             <Icon name="Award" size={20} className="text-primary" />
             <span className="font-body text-sm font-medium text-text-primary">
-              Award-Winning Medical Excellence Since 2010
+              Award-Winning Medical Excellence 
             </span>
           </div>
 
