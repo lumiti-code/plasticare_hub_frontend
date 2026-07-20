@@ -92,7 +92,7 @@ const PhilosophySection = () => {
                   </blockquote>
                   <div className="flex items-center gap-4">
                     <Image
-                      src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/Facelift.jpeg"
+                      src="https://raw.githubusercontent.com/lumiti-code/plasticare_hub_frontend/refs/heads/main/src/assets/images/DR.%20EVANS.jpg"
                       alt="Dr. Spanton Masitara, Chief Medical Officer, professional headshot in white medical coat"
                       className="w-12 h-12 rounded-full object-cover border-2 border-primary" />
 
