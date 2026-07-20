@@ -85,9 +85,9 @@ const PhilosophySection = () => {
                   alt="Experienced female surgeon in surgical scrubs consulting with patient in modern medical consultation room with natural lighting"
                   className="w-full h-[600px] object-cover" />
 
-                <div className="absolute inset-0 gradient-rose-overlay" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                 <div className="absolute bottom-0 left-0 right-0 p-8 bg-gradient-to-t from-background/95 to-transparent">
-                  <blockquote className="font-accent text-xl text-text-primary italic mb-4">
+                  <blockquote className="font-accent text-xl text-white italic mb-4 drop-shadow-lg">
                     "We don't just transform appearances—we transform lives. Every procedure is a partnership between medical expertise and your personal vision."
                   </blockquote>
                   <div className="flex items-center gap-4">
@@ -97,10 +97,10 @@ const PhilosophySection = () => {
                       className="w-12 h-12 rounded-full object-cover border-2 border-primary" />
 
                     <div>
-                      <div className="font-body font-semibold text-text-primary">
+                      <div className="font-body font-semibold text-white">
                         Dr. Spanton Masitara
                       </div>
-                      <div className="font-body text-sm text-text-secondary">
+                      <div className="font-body text-sm text-white/90">
                         Chief Medical Officer
                       </div>
                     </div>
