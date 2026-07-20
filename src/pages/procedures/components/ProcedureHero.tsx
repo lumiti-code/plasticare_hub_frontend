@@ -32,7 +32,7 @@ const ProcedureHero = ({ onSearch }: ProcedureHeroProps) => {
 
           <h1 className="font-headline text-4xl sm:text-5xl lg:text-6xl font-bold text-text-primary mb-6">
             Discover Your Perfect
-            <span className="text-gradient-rose"> Transformation</span>
+            <span className="text-text-primary"> Transformation</span>
           </h1>
 
           <p className="font-body text-lg sm:text-xl text-text-secondary mb-10 max-w-3xl mx-auto">
